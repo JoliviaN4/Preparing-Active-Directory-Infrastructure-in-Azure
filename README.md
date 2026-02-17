@@ -56,7 +56,7 @@ A Windows 11 pro virtual machine named Client-1 was deployed to simulate a clien
 <img width="1512" height="982" alt="04-Static private IP" src="https://github.com/user-attachments/assets/3320fbf4-8b93-482d-8f41-d56273f6f0a4" />
 
 <p>
-DC-1 was configured with a static private IP address to ensure reliable DNS resolution and consistent network communication.
+DC-1 was configured with a static private IP address to maintain reliable DNS resolution and consistent network communication.
 </p>
 
 <h3>6. Client DNS Configuration</h3>
@@ -71,5 +71,4 @@ Client-1 was configured to use DC-1’s private IP address as its DNS server, wh
 
 <img width="1512" height="982" alt="06-Successful ping test" src="https://github.com/user-attachments/assets/a1e4f0ec-3e28-4aa3-bb0e-014ca40aa11d" />
 
-I verified connectivity by successfully pinging DC-1 from Client-1. This confirms that the Virtual Network and DNS settings were configured correctly.
-
+Connectivity was verified through a successful ping from Client-1 to DC-1, confirming proper Virtual Network communication and DNS configuration.
