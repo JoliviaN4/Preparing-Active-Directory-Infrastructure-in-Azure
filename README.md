@@ -23,7 +23,7 @@ This project demonstrates the preparation of Active Directory infrastructure in 
 
 <p>
 A dedicated Resource Group was created in Azure to organize all components of this lab environment. 
-This allows centralized management of related resources.
+This allows me to manage, monitor, and control all related resources in one place.
 </p>
 
 <h3>2. Virtual Network and Subnet Configuration</h3>
@@ -31,7 +31,8 @@ This allows centralized management of related resources.
 <img width="1512" height="982" alt="02-Virtual Network" src="https://github.com/user-attachments/assets/82c23c71-4877-44db-84ea-25f45773abed" />
 
 <p>
-A Virtual Network and subnet were configured to allow communication between DC-1 and Client-1 within the same Azure region.
+A Virtual Network and subnet were configured to allow communication between the Domain Controller (DC-1) and Client-1.This ensures both machines can communicate securely within the same environment.
+
 </p>
 
 <h3>3. Domain Controller Virtual Machine (DC-1)</h3>
