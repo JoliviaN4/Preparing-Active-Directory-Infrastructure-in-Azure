@@ -40,7 +40,7 @@ A Virtual Network and subnet were configured to allow communication between the 
 <img width="1512" height="982" alt="03-DC-1 VM running" src="https://github.com/user-attachments/assets/7e359d38-af14-415c-83b9-aec06fea34df" />
 
 <p>
-A Windows Server 2022 virtual machine named DC-1 was deployed to serve as the future Domain Controller.
+The Windows Server 2022 virtual machine named DC-1 was promoted to a Domain Controller to manage authentication and directory services.
 </p>
 
 <h3>4. Client Virtual Machine Deployment (Client-1)</h3>
