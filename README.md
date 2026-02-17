@@ -1,4 +1,4 @@
-<img width="384" height="131" alt="image" src="https://github.com/user-attachments/assets/dcb2d4b4-0864-45ef-9cc1-3d12e9b1bfd4" />
+<img width="600" height="495" alt="image" src="https://github.com/user-attachments/assets/00df9546-a4ff-45d9-bb53-49b15615d9f5" />
 
 # Preparing-Active-Directory-Infrastructure-in-Azure
 This project demonstrates the preparation of Active Directory infrastructure in Microsoft Azure. The focus of this lab is building the foundational cloud environment required before deploying Active Directory Domain Services.
