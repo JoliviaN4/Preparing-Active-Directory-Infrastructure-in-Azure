@@ -38,22 +38,23 @@ A Virtual Network and subnet were configured to allow communication between the 
 
 </p>
 
-<h3>3. Domain Controller Virtual Machine (DC-1)</h3>
+<h3>3. Domain Controller Virtual Machine (DC-1) Deployment and Status </h3>
 
 <img width="1512" height="982" alt="03-DC-1 VM running" src="https://github.com/user-attachments/assets/d93be32c-5507-4887-81ea-908f6dadf77f" />
 
 
 <p>
-The Windows Server 2022 virtual machine named DC-1 was promoted to a Domain Controller to manage authentication and directory services.
+A Windows Server 2022 virtual machine named DC-1 was successfully deployed in Azure and verified to be running. This server will later be promoted to a Domain Controller after the infrastructure setup is complete.
 </p>
 
-<h3>4. Client Virtual Machine Deployment (Client-1)</h3>
+<h3>4. Client Virtual Machine (Client-1) Deployment and Status </h3>
 
 <img width="1512" height="982" alt="04-Client-1 VM running" src="https://github.com/user-attachments/assets/896286c3-62a2-481f-984a-705bf54f6422" />
 
 
 <p>
-A Windows 11 pro virtual machine named Client-1 was deployed to simulate a client workstation within the network.
+A Windows 11 Pro virtual machine named Client-1 was successfully deployed and verified to be running. This machine will serve as the client workstation within the Active Directory environment.
+
 </p>
 
 <h3>5. Static Private IP Configuration</h3>
@@ -61,7 +62,7 @@ A Windows 11 pro virtual machine named Client-1 was deployed to simulate a clien
 <img width="1512" height="982" alt="05-Static private IP" src="https://github.com/user-attachments/assets/0357df74-89c1-4fdc-8ed1-6c4a7fd02545" />
 
 <p>
-DC-1 was configured with a static private IP address to maintain reliable DNS resolution and consistent network communication.
+DC-1 was configured with a static private IP address to maintain consistent DNS resolution and stable network communication within the Virtual Network.
 </p>
 
 <h3>6. Client DNS Configuration</h3>
