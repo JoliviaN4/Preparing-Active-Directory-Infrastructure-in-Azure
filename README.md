@@ -30,7 +30,8 @@ This allows me to manage, monitor, and control all related resources in one plac
 
 <h3>2. Virtual Network and Subnet Configuration</h3>
 
-<img width="1486" height="860" alt="01-Resource group" src="https://github.com/user-attachments/assets/1ef46e43-03b6-4ac8-8f35-e637c6160517" />
+<img width="1512" height="982" alt="02-Virtual Network" src="https://github.com/user-attachments/assets/afb0c58e-f27c-47fd-85bb-15a673a7f7a7" />
+
 
 <p>
 A Virtual Network and subnet were configured to allow communication between the Domain Controller (DC-1) and Client-1.This ensures both machines can communicate securely within the same environment.
