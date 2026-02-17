@@ -1,5 +1,5 @@
-[
-](https://www.google.com/imgres?q=microsoft%20azure%20logo&imgurl=https%3A%2F%2Fwww.bizstream.com%2Fwp-content%2Fuploads%2F2022%2F04%2Fmicrosoft-azure-logo.png&imgrefurl=https%3A%2F%2Fwww.bizstream.com%2Ftechnology%2Fazure%2F&docid=J2s0Ai9tsO-N6M&tbnid=GszYxn5eIJWdwM&vet=12ahUKEwjzw4XW4N6SAxWCFVkFHXiYDp0QnPAOegQIJRAB..i&w=1000&h=342&hcb=2&ved=2ahUKEwjzw4XW4N6SAxWCFVkFHXiYDp0QnPAOegQIJRAB)<img width="384" height="131" alt="image" src="https://github.com/user-attachments/assets/9c52ba68-a6ae-4d26-8031-b4ea14352c3d" />
+<img width="384" height="131" alt="image" src="https://github.com/user-attachments/assets/dcb2d4b4-0864-45ef-9cc1-3d12e9b1bfd4" />
+
 # Preparing-Active-Directory-Infrastructure-in-Azure
 This project demonstrates the preparation of Active Directory infrastructure in Microsoft Azure. The focus of this lab is building the foundational cloud environment required before deploying Active Directory Domain Services.
 
@@ -13,7 +13,7 @@ This project demonstrates the preparation of Active Directory infrastructure in 
 <h2>Operating Systems Used</h2>
 
 - Windows Server 2022 (Domain Controller: DC-1)
-- Windows 10 (Client-1)
+- Windows 11 pro (Client-1)
 
 <h2>Infrastructure Setup Steps</h2>
 
@@ -42,13 +42,15 @@ A Virtual Network and subnet were configured to allow communication between DC-1
 A Windows Server 2022 virtual machine named DC-1 was deployed to serve as the future Domain Controller.
 </p>
 
+<h3>4. Client Virtual Machine Deployment (Client-1)</h3>
+
 <img width="1512" height="982" alt="03-Client-1 VM running" src="https://github.com/user-attachments/assets/b9682f22-83e6-43be-b192-84868a71756c" />
 
 <p>
-A Windows Server 2022 virtual machine named Client-1 was deployed to serve as the Client
+A Windows 11 pro virtual machine named Client-1 was deployed to simulate a client workstation within the network.
 </p>
 
-<h3>4. Static Private IP Configuration</h3>
+<h3>5. Static Private IP Configuration</h3>
 
 <img width="1512" height="982" alt="04-Static private IP" src="https://github.com/user-attachments/assets/3320fbf4-8b93-482d-8f41-d56273f6f0a4" />
 
@@ -56,7 +58,7 @@ A Windows Server 2022 virtual machine named Client-1 was deployed to serve as th
 DC-1 was configured with a static private IP address to ensure reliable DNS resolution and consistent network communication.
 </p>
 
-<h3>5. Client DNS Configuration</h3>
+<h3>6. Client DNS Configuration</h3>
 
 <img width="1512" height="982" alt="05-Client 1 DNS setting" src="https://github.com/user-attachments/assets/88ec29f2-64a4-4635-94ab-79db1280582e" />
 
@@ -64,8 +66,9 @@ DC-1 was configured with a static private IP address to ensure reliable DNS reso
 Client-1 was configured to use DC-1’s private IP address as its DNS server, which is required for Active Directory communication.
 </p>
 
-<h3>6. Connectivity Validation (Ping Test)</h3>
+<h3>7. Connectivity Validation (Ping Test)</h3>
 
 <img width="1512" height="982" alt="06-Successful ping test" src="https://github.com/user-attachments/assets/a1e4f0ec-3e28-4aa3-bb0e-014ca40aa11d" />
 
+I verified connectivity by successfully pinging DC-1 from Client-1. This confirms that the Virtual Network and DNS settings were configured correctly.
 
