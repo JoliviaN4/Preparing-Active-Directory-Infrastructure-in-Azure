@@ -19,7 +19,9 @@ This project demonstrates the preparation of Active Directory infrastructure in 
 
 <h3>1. Resource Group Creation</h3>
 
-<img width="1512" height="982" alt="01-Resource-group" src="https://github.com/user-attachments/assets/1f252139-1ee9-452c-af52-90c84e02cfe4" />
+<img width="1486" height="860" alt="01-Resource group" src="https://github.com/user-attachments/assets/1dd8197c-b7ce-4a21-9486-83c9918983f1" />
+
+
 
 <p>
 A dedicated Resource Group was created in Azure to organize all components of this lab environment. 
@@ -28,7 +30,7 @@ This allows me to manage, monitor, and control all related resources in one plac
 
 <h3>2. Virtual Network and Subnet Configuration</h3>
 
-<img width="1512" height="982" alt="02-Virtual Network" src="https://github.com/user-attachments/assets/82c23c71-4877-44db-84ea-25f45773abed" />
+<img width="1486" height="860" alt="01-Resource group" src="https://github.com/user-attachments/assets/1ef46e43-03b6-4ac8-8f35-e637c6160517" />
 
 <p>
 A Virtual Network and subnet were configured to allow communication between the Domain Controller (DC-1) and Client-1.This ensures both machines can communicate securely within the same environment.
@@ -37,7 +39,8 @@ A Virtual Network and subnet were configured to allow communication between the 
 
 <h3>3. Domain Controller Virtual Machine (DC-1)</h3>
 
-<img width="1512" height="982" alt="03-DC-1 VM running" src="https://github.com/user-attachments/assets/7e359d38-af14-415c-83b9-aec06fea34df" />
+<img width="1512" height="982" alt="03-DC-1 VM running" src="https://github.com/user-attachments/assets/d93be32c-5507-4887-81ea-908f6dadf77f" />
+
 
 <p>
 The Windows Server 2022 virtual machine named DC-1 was promoted to a Domain Controller to manage authentication and directory services.
@@ -45,7 +48,8 @@ The Windows Server 2022 virtual machine named DC-1 was promoted to a Domain Cont
 
 <h3>4. Client Virtual Machine Deployment (Client-1)</h3>
 
-<img width="1512" height="982" alt="03-Client-1 VM running" src="https://github.com/user-attachments/assets/b9682f22-83e6-43be-b192-84868a71756c" />
+<img width="1512" height="982" alt="04-Client-1 VM running" src="https://github.com/user-attachments/assets/896286c3-62a2-481f-984a-705bf54f6422" />
+
 
 <p>
 A Windows 11 pro virtual machine named Client-1 was deployed to simulate a client workstation within the network.
@@ -53,7 +57,7 @@ A Windows 11 pro virtual machine named Client-1 was deployed to simulate a clien
 
 <h3>5. Static Private IP Configuration</h3>
 
-<img width="1512" height="982" alt="04-Static private IP" src="https://github.com/user-attachments/assets/3320fbf4-8b93-482d-8f41-d56273f6f0a4" />
+<img width="1512" height="982" alt="05-Static private IP" src="https://github.com/user-attachments/assets/0357df74-89c1-4fdc-8ed1-6c4a7fd02545" />
 
 <p>
 DC-1 was configured with a static private IP address to maintain reliable DNS resolution and consistent network communication.
@@ -61,7 +65,7 @@ DC-1 was configured with a static private IP address to maintain reliable DNS re
 
 <h3>6. Client DNS Configuration</h3>
 
-<img width="1512" height="982" alt="05-Client 1 DNS setting" src="https://github.com/user-attachments/assets/88ec29f2-64a4-4635-94ab-79db1280582e" />
+<img width="1512" height="982" alt="06-Client 1 DNS setting" src="https://github.com/user-attachments/assets/68b4a1bb-1ff0-4b31-8c41-617ea5a63b26" />
 
 <p>
 Client-1 was configured to use DC-1’s private IP address as its DNS server, which is required for Active Directory communication.
@@ -69,6 +73,7 @@ Client-1 was configured to use DC-1’s private IP address as its DNS server, wh
 
 <h3>7. Connectivity Validation (Ping Test)</h3>
 
-<img width="1512" height="982" alt="06-Successful ping test" src="https://github.com/user-attachments/assets/a1e4f0ec-3e28-4aa3-bb0e-014ca40aa11d" />
+<img width="1512" height="982" alt="07-Successful ping test" src="https://github.com/user-attachments/assets/819034e3-9a12-4dd9-8b9e-ed81428c508c" />
+
 
 Connectivity was verified through a successful ping from Client-1 to DC-1, confirming proper Virtual Network communication and DNS configuration.
