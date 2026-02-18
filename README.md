@@ -34,7 +34,7 @@ This allows me to manage, monitor, and control all related resources in one plac
 
 
 <p>
-A Virtual Network and subnet were configured to allow communication between the Domain Controller (DC-1) and Client-1.This ensures both machines can communicate securely within the same environment.
+A Virtual Network and subnet were configured to allow communication between the Domain Controller (DC-1) and Client-1. This ensures both machines can communicate securely within the same environment.
 
 </p>
 
