@@ -78,4 +78,4 @@ Client-1 was configured to use DC-1’s private IP address as its DNS server, wh
 <img width="1512" height="982" alt="07-Successful ping test" src="https://github.com/user-attachments/assets/819034e3-9a12-4dd9-8b9e-ed81428c508c" />
 
 
-Connectivity was verified through a successful ping from Client-1 to DC-1, confirming proper Virtual Network communication and DNS configuration.
+Connectivity was verified through a successful ping from Client-1 to DC-1, confirming proper communication within the Virtual Network and correct DNS configuration.
